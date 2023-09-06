@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609653588564",
+    "project_id": "sudokujuanpereira",
+    "storage_bucket": "sudokujuanpereira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609653588564:android:5f40e8ce9b25bf94dae3c1",
+        "android_client_info": {
+          "package_name": "com.example.sudoku_juanpereira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609653588564-hjvq8hhoi848apqtfphjteqbvbtqtvuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DortRGW4mDZbwO-R3Um0OGkxqsFCBZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609653588564-hjvq8hhoi848apqtfphjteqbvbtqtvuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

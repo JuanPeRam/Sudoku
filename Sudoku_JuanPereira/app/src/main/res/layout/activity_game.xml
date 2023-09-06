@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    tools:context=".Game.GameActivity">
+
+    <com.example.sudoku_juanpereira.Game.SudokuBoard
+        android:id="@+id/sudokuBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:boardColor="#000000"
+        custom:cellSelectedColor="@color/secondaryColor"
+        custom:cellsSurroundingColor="@color/secondaryLightColor"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.488"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.427"
+        custom:letterColor="@color/sudokuTextPlaced"
+        custom:letterColorFixed="@color/black"
+        custom:letterColorSolve="@color/primaryTextColor"
+        custom:letterColorWrong="@color/purple_200"></com.example.sudoku_juanpereira.Game.SudokuBoard>
+
+    <LinearLayout
+        android:id="@+id/lbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.0"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/sudokuBoard"
+        custom:layout_constraintVertical_bias="0.202">
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnOneClicked"
+            android:text="@string/one"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnTwoClicked"
+            android:text="@string/two"
+            android:textColor="@color/black"
+            android:textSize="60sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnThreeClicked"
+            android:text="@string/three"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnFourClicked"
+            android:text="@string/four"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnFiveClicked"
+            android:text="@string/five"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnSixClicked"
+            android:text="@string/six"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnSevenClicked"
+            android:text="@string/seven"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnEightClicked"
+            android:text="@string/eight"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/juanpereirafont"
+            android:onClick="btnNineClicked"
+            android:text="@string/nine"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="83dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        custom:layout_constraintBottom_toTopOf="@+id/lMistakes"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.048"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.232">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="goBack"
+            custom:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:id="@+id/iv_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="pause"
+            custom:srcCompat="@drawable/ic_baseline_pause_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lMistakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        custom:layout_constraintBottom_toTopOf="@+id/sudokuBoard"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.498"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.788">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/mistakes"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_mistakes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="casual"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/lbuttons">
+
+        <LinearLayout
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="undo"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_return"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                custom:srcCompat="@drawable/ic_baseline_replay_24" />
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="@string/remove"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:onClick="clear"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_clear"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                custom:srcCompat="@drawable/ic_baseline_cleaning_services_24" />
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="@string/clear"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="resetBoard"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_clean"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                custom:srcCompat="@drawable/ic_baseline_restore_from_trash_24" />
+
+            <TextView
+                android:id="@+id/tv_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="@string/clear_all"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        custom:layout_constraintBottom_toTopOf="@+id/lMistakes"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.498"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.025">
+
+        <ImageView
+            android:id="@+id/iv_clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            custom:srcCompat="@drawable/ic_baseline_timer_24" />
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_theme"
+        android:layout_width="41dp"
+        android:layout_height="51dp"
+        android:onClick="goThemes"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.91"
+        custom:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.014"
+        custom:srcCompat="@drawable/palette" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

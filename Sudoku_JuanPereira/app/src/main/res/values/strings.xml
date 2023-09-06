@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name" translatable="false">Sudoku JuanPereira</string>
+    <string name="title" translatable="false">Sudoku JP</string>
+    <string name="author_name" translatable="false">JUAN PEREIRA</string>
+
+    <!-- NAVIGATION MENU -->
+    <string name="menu_bar_option1" translatable="false">Home</string>
+    <string name="menu_bar_option3" translatable="false">Ranking</string>
+    <string name="menu_bar_option2">Estadísticas</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_game">Nueva Partida</string>
+    <string name="continue_game">Continuar Partida</string>
+    <string name="background_description" translatable="false">Main Background</string>
+    <string name="mistakes">Errores: </string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="preference_users" translatable="false">com.example.sudoku_juanpereira.PREFERENCE_FILE_KEY_USERS</string>
+    <string name="preference_game_theme" translatable="false">com.example.sudoku_juanpereira.PREFERENCE_THEMES</string>
+    <string name="gamewon">¡Has completado el Sudoku!</string>
+    <string name="congrats">Enhorabuena</string>
+    <string name="continueString">Continuar</string>
+    <string name="nosavedgames">No se han encontrado partidas guardadas</string>
+    <!-- SUDOKU GAME MENU-->
+    <string name="remove">Volver</string>
+    <string name="clear">Borrar</string>
+    <string name="clear_all">Limpiar</string>
+
+    <!-- NUMBERS -->
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+
+    <!-- DIFFICULTIES -->
+    <string name="easy">Fácil</string>
+    <string name="medium">Intermedio</string>
+    <string name="hard">Difícil</string>
+
+    <!-- RANKING STRINGS -->
+    <string name="user">Usuario:</string>
+    <string name="points">Puntuación:</string>
+    <!-- STATS STRINGS -->
+    <string name="totalTime">Tiempo medio</string>
+    <string name="gamesWon">Partidas ganadas</string>
+    <string name="gamesPlayed">Partidas iniciadas</string>
+    <string name="totalPoints">Puntos totales</string>
+    <!--  INGAME THEMES  -->
+    <string name="themeClassic">Clásico</string>
+    <string name="themeLight">Claro</string>
+    <string name="themeDark">Oscuro</string>
+    <string name="themeNeon">Neón</string>
+    <!-- LOGIN TEXTS-->
+    <string name="email">E-mail</string>
+    <string name="password">Contraseña</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registrarme</string>
+    <string name="noaccount">¿No tienes una cuenta aún?</string>
+    <!-- LOGIN ERRORS-->
+    <string name="emptyField">Debes rellenar todos los campos</string>
+    <string name="badUserOrPassword">Usuario o contraseña incorrectos</string>
+    <string name="incorrectPassword">La contraseña debe contener al menos 6 caracteres</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sudoku JuanPereira</string>
+    <string name="menu_bar_option2">Stats</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_game">New Game</string>
+    <string name="continue_game">Continue Game</string>
+    <string name="mistakes">Mistakes: </string>
+
+    <string name="remove">Undo</string>
+    <string name="clear">Erase</string>
+    <string name="clear_all">Clear All</string>
+
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <string name="logout">Log out</string>
+    <string name="user">User:</string>
+    <string name="points">Points:</string>
+
+    <string name="gamewon">You have completed the Sudoku!</string>
+    <string name="congrats">Congratulations</string>
+    <string name="continueString">Continue</string>
+
+    <string name="totalTime">Average time</string>
+    <string name="gamesWon">Games won</string>
+    <string name="gamesPlayed">Total games</string>
+    <string name="totalPoints">Total points earned</string>
+
+    <string name="nosavedgames">There are no games in progress</string>
+
+    <string name="themeLight">Light</string>
+    <string name="themeDark">Dark</string>
+    <string name="themeClassic">Classic</string>
+    <string name="themeNeon">Neon</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="noaccount">¿Don\'t have an account yet?</string>
+
+    <string name="emptyField">You must write in both fields</string>
+    <string name="badUserOrPassword">Username or password incorrect</string>
+    <string name="incorrectPassword">Password must contain at least 6 characters</string>
+
+</resources>

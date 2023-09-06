@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_def">#5a595b</color>
+    <color name="primaryColor">#F3EFE0</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#ccc8b9</color>
+    <color name="secondaryColor">#BFEAF5</color>
+    <color name="secondaryLightColor">#EAFDFC</color>
+    <color name="secondaryDarkColor">#1e2c4d</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="sudokuTextPlaced">#0E2296</color>
+    <!-- Classic theme -->
+    <color name="textColorClassic">#000000</color>
+    <color name="backgroundColorClassic">#ffffff</color>
+    <!-- Light theme-->
+    <color name="textColorLight">#000000</color>
+    <color name="backgroundColorLight">#ffffff</color>
+    <!-- DARK theme -->
+    <color name="textColorDark">#ffffff</color>
+    <color name="backgroundColorDark">#000000</color>
+    <!-- NEON theme -->
+    <color name="textColorNeon">#ffffff</color>
+    <color name="backgroundColorNeon">#000000</color>
+
+</resources>
